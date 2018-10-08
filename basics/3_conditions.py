@@ -1,7 +1,9 @@
+"""3: Conditions"""
+
 # Sometimes you want to check is one variable the same as other, or maybe
 # if a number is bigger or smaller than another number. For that we use
-# what is called conditional statements. Remember you can only compare variables
-# of the same type (like int, or string)
+# what is called conditional statements. Remember you can only compare
+# variables of the same type (like int, or string)
 
 age: int = 10
 
