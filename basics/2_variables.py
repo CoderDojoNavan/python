@@ -1,3 +1,5 @@
+"""2: Variables"""
+
 # Variables are used to store information later on, if you want to listen
 # to what the user wants to say or keep something as a result.
 # There are various types of variables, but the most basic ones are:

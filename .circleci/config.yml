@@ -6,5 +6,7 @@ jobs:
     - image: circleci/python:3.7.0
     steps:
     - checkout
-    - run: sudo pip install -U mypy
+    - run: sudo pip install -U pylint mypy pycodestyle
     - run: mypy basics
+    - run: pylint basics
+    - run: pycodestyle basics
